@@ -1,0 +1,452 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mynavbar {
+    background-color: #222222;
+    height: 51px;
+    display: grid;
+    grid-template-columns: 8% 22% 40% 12% 3% 10% 5%;
+    grid-template-rows: 30% 5% 65%;
+    width: 100%;
+    position: fixed;
+}
+
+.navbarimg {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+
+.navtext {
+    grid-column-start: 4;
+    color: #A1A1A1;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-family: 'Arvo', courier, serif;
+    font-size: 13px;
+}
+
+.navtext2 {
+    grid-column-start: 6;
+    color: #A1A1A1;
+    text-decoration: none;
+    font-family: 'Arvo', courier, serif;
+    font-size: 13px;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.navtext:hover {
+    color: white;
+}
+
+.navtext2:hover {
+    color: white;
+}
+
+#home {
+    background: url(../images/hero-image.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home .homeh1 {
+    color: white;
+    font-size: 63px;
+    font-family: 'Arvo';
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: normal;
+    line-height: 1.1;
+    margin-top: 100px;
+}
+
+#home .bannertxt {
+    color: white;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Arvo';
+    font-size: 21px;
+    font-weight: 100;
+}
+
+#home .monboutonamoidequejenfaisquestcequejeveux {
+    background-color: #d9534f;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Arvo';
+    font-size: 36px;
+    border : 1px solid #d43f3a;
+    padding: 12px 12px;
+    margin-bottom: 30px;
+} 
+
+
+#who {
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#who .whotxt {
+    color: #E74C3C;
+    font-family: 'Arvo';
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#who .myorangehr {
+    border: .5px solid #E74C3C;
+    width: 12%;
+    margin-top: -15px;
+}
+
+#who .whotxt2 {
+    font-size: 21px;
+    font-weight: 300;
+    max-width: 84%;
+    font-family: 'Helvetica';
+    line-height: 1.5;
+    color: #333333;
+}
+
+#who .whotxt2 a{
+    color: #E74C3C;
+    text-decoration: none;
+}
+
+#who .whotxt2 a:hover {
+    color: #EB6F62;
+}
+
+#get-involved {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.principaltextinvolved {
+    color: #E74C3C;
+    font-family: 'Arvo';
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#get-involved .hr2 {
+    border: .5px solid #E74C3C;
+    width: 12%;
+    margin-top: -15px;
+}
+
+.mycards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-bottom: 20px;
+}
+
+.mycards i {
+    margin-top: 15px;
+    color: white;
+    background-color: #333333;
+    border-radius: 50%;
+    font-size: 45px;
+    width: 65px;
+    height: 65px;
+    align-self: center;
+    padding: 15px;
+    line-height: 65px;
+    margin-bottom: 6px;
+}
+
+#get-involved .involvedh2 {
+    font-family: 'Arvo';
+    color: #e74c3c;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: -15px;
+}
+
+#get-involved .involvedp {
+    font-size: 21px;
+    font-weight: 300;
+    color: #333333;
+    padding-left:15px;
+    padding-right: 15px;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+#get-involved .cestencoremonboutondoncsijeveuxlappelerjambonbahjevaislappelerjambon {
+    color: #e74c3c;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+#get-involved .cestencoremonboutondoncsijeveuxlappelerjambonbahjevaislappelerjambon:hover {
+    cursor: pointer;
+    color: #E98075;
+    background-color: #ECECEC;
+}
+
+footer {
+    background-color: #f74c3c;
+    padding-top: 150px;
+    padding-bottom: 36px;
+    display: grid;
+    grid-template-columns: 7.85% 20% 70%;
+}
+
+.footercontainer {
+    grid-column-start: 2;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 2px;
+    font-size: 22px;
+    color: black;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 1199px) {
+    #home .homeh1 {
+        color: white;
+        font-size: 55px;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: normal;
+        line-height: 1.1;
+        margin-top: 100px;
+    }
+
+    #home .bannertxt {
+        color: white;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Arvo';
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .mycards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 9%;
+        padding-right: 9%;
+        margin-bottom: 20px;
+    }
+
+    #get-involved .involvedh2 {
+        font-family: 'Arvo';
+        color: #e74c3c;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: -15px;
+    }
+
+    #get-involved .involvedp {
+        font-size: 21px;
+        font-weight: 300;
+        color: #333333;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 22px;
+        box-sizing: border-box;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .mynavbar {
+        grid-template-columns: 14% 16% 31% 12% 3% 15%;
+        grid-template-rows: 30% 5% 65%;
+    }
+    
+    #home .homeh1 {
+        font-size: 44px;
+        max-width: 70%;
+        line-height: 1.1;
+        margin-top: 100px;
+        margin-bottom: 5px;
+    }
+    
+    #home .bannertxt {
+        max-width: 75%;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.8;
+        letter-spacing: 1.2px;
+        margin-bottom: 30px;
+    }
+
+    #home .monboutonamoidequejenfaisquestcequejeveux {
+        padding: 10px 15px;
+        margin-bottom: 30px;
+    } 
+
+    #who .whotxt {
+        margin-top: 18px;
+    }
+    
+    #who .myorangehr {
+        width: 16%;
+        margin-top: -17px;
+    }
+
+    #who .whotxt2 {
+        max-width: 73%;
+        margin-top: 12px;
+        margin-bottom: 20px;
+        line-height: 1.45;
+    }
+
+    #get-involved {
+    padding-bottom: 0px;
+    }
+
+    #get-involved .hr2 {
+        width: 16%;
+        margin-top: -18px;
+        margin-bottom: 35px;
+    }
+
+    .mycards {
+        flex-direction: column;
+        max-width: 80%;
+        max-width: 78%;
+        padding-left: 11%;
+    }
+
+    #get-involved .cestencoremonboutondoncsijeveuxlappelerjambonbahjevaislappelerjambon {
+        padding: 6px 12px;
+        margin-top: -25px;
+        margin-bottom: 42px ;
+        font-size: 14px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    footer {
+        padding-bottom: 35px;
+        grid-template-columns: 13.7% 20%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    
+    .mynavbar {
+        background-color: #222222;
+        height: 51px;
+        display: grid;
+        grid-template-columns: 2% 22% 40% 12% 3% 12.5% 2.5%;
+        grid-template-rows: 30% 5% 65%;
+        width: 100%;
+        position: fixed;
+    }
+
+    .navtext {
+        display: none;
+    }
+
+    .navtext2 {
+        display: none;
+    }
+
+    .fa-bars {
+        color: white;
+        grid-column-start: 7;
+        grid-row-start: 3;
+        display: inline;
+    }
+    
+
+    #home .homeh1 {
+        font-size: 24px;
+        max-width: 48%;
+        font-weight: normal;
+        line-height: 1.1;
+        margin-top: 80px;
+    }
+
+    #home .bannertxt {
+        max-width: 92%;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 1.5;
+        letter-spacing: 0;
+    }
+
+    #home .monboutonamoidequejenfaisquestcequejeveux {
+        font-size: 18px;
+        padding: 12px 12px;
+        margin-bottom: 30px;
+    } 
+
+    #who .whotxt2 {
+        font-size: 18px;
+        max-width: 95%;
+        line-height: 1.4;
+    }
+
+    #get-involved .involvedh2 {
+        font-weight: normal;
+    }
+    
+    #get-involved .involvedp {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    footer {
+        background-color: #f74c3c;
+        padding-top: 150px;
+        padding-bottom: 36px;
+        display: grid;
+        grid-template-columns: 2% 20% 70%;
+    }
+
+    .footerimg {
+        width: 384%;
+    }
+
+}
